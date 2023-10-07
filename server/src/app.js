@@ -11,6 +11,8 @@ connectToDB();
 // Routes
 setRoutes(app);
 
+//Server uploads folder
+app.use("/uploads", express.static("uploads"));
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
