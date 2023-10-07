@@ -32,7 +32,6 @@ build/
 uploads/
 # Build files
 build/
-public/
 
 # Cache and build files for React
 node_modules/.cache/
