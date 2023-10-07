@@ -1,8 +1,8 @@
 const express = require("express");
 const { connectToDB } = require("./utils/db");
-
+const { setRoutes } = require("./routes");
 const app = express();
-
+require("dotenv").config();
 // Middleware
 app.use(express.json());
 

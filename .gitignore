@@ -29,7 +29,7 @@ build/
 # IDE files
 .vscode/
 .idea/
-
+uploads/
 # Build files
 build/
 public/
